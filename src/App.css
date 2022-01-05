@@ -1,0 +1,485 @@
+
+html{
+  /* background-color: burlywood; */
+}
+body{
+  /* background: blue; */
+  padding: 0px;
+}
+.App {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+ justify-content: center;
+}
+.userHome{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+.header{
+  background: url('./images/image\ 1.png');
+  background-position: center;
+  background-size: cover;
+ height:565px;
+ width: 1512px;
+   /* height: 70vh; */
+  /* width: 99vw;  */
+  /* padding: 10px; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+
+.navigationBar{
+  /* position: absolute; */
+  display: flex;
+  list-style: none;
+  color: white;
+  width: 1069px;
+  height: 46px;
+  margin-top: 30px;
+  margin-left:225px;
+  /* justify-self:right ; */
+  justify-content: right;
+  align-items: center;
+
+}
+.navigationBar img{
+  margin-right: 490px;
+}
+
+.link{
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 50px;
+  font-size: 16px;
+  
+  
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2D758F;
+  font-size: 16px;
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.titleSignup{
+
+margin-left: 413px;
+margin-top: 150px;
+}
+.Title{
+  /* border: 1px solid rgb(255, 252, 252); */
+  /* margin-bottom: 1.5vmin; */
+  font-size: 48px;
+  width: 710px;
+  height: 40px;
+  margin-left: 413px;
+margin-top: 150px;
+}
+.titleP{
+  /* border: 1px solid rgb(255, 252, 252); */
+height: 33px;
+width: 391px;
+margin-left: 538px;
+margin-top: 3px;
+font-size: 24px;
+
+}
+.signUpLine{
+  display: flex;
+  flex-direction: column;
+  width: 1512px;
+  color: aliceblue;
+  justify-content: center;
+
+}
+
+.signUpLineName{
+  display: inline;
+margin-bottom: 5px;
+height: 21.875px;
+width: 92px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.signUpLineEmail{
+margin-bottom: 5px;
+display: inline;
+height: 25px;
+width: 66px;
+left: 581px;
+top: 345px;
+border-radius: nullpx;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.signupForm{
+display: flex;
+align-items: center;
+height: 72px;
+width: 700px;
+margin-left: 390px;
+top: 343px;
+padding: 0px;
+}
+
+
+.nameSignup{
+  border-radius: 8px;
+  border:1px solid black;
+  margin-right: 5px;
+  width: 150px;
+  height: 40px;
+}
+.emailSignup{
+  border-radius: 8px;
+  border:1px solid black;
+  margin-right: 11px;
+  width: 350px;
+  height: 40px;
+}
+.buttons{
+  width: 170px;
+  background: #E23D6F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding-top: .5vmin;
+  padding-bottom: .5vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 49px;
+}
+
+/* font-size: 48px;
+height: 65px;
+width: 641px; */
+/* left: 413px;
+top: 226px; */
+
+
+.homePageSection{
+  display: flex;
+  /* border: 1px solid black; */
+  margin-left:221px;
+  margin-top:103px;
+  justify-content:space-evenly;
+  height: 353px;
+  width: 1070px;
+}
+
+.homepageComp{
+  
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  /* border: 1px solid black; */
+  text-align: left;
+  margin-left: 101px;
+  margin-right: 30px;
+  /* height: 234px;
+  width: 440px; */
+/* left: 851px;
+top: 752px;
+border-radius: nullpx; */
+
+
+}
+
+.homepageComp h3{
+  height: 41px;
+width: 385px;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+
+}
+.homepageComp p{
+height: 234px;
+width: 440px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+  /* margin:5vmin; */
+
+}
+.image{
+  height: 353px;
+width: 529px;
+/* left: 221px;
+top: 672px; */
+border-radius: 8px;
+
+}
+
+.buttonTeal{
+  background: #2D758F;
+  
+  margin-bottom: 30px;
+  border-radius: .8vmin;
+  color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  height: 40px;
+  width: 170px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 19px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+
+
+}
+
+.footer{
+  background: black;
+  color:white ;
+  display: flex;
+  margin-top: 100px;
+  height: 15vh;
+  font-size: 12px;
+  text-align: left;
+   align-items: center;
+  height: 192px;
+  width: 1512px;
+  left: 0px;
+  top: 2055px;
+  border-radius: 0px;
+
+}
+.footer p{
+  margin-left:221px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.footer img{
+  
+  margin-left: 315px;
+  height: 92px;
+  width: 253px;
+  border-radius: 0px;
+
+}
+
+
+.topic{
+  display: flex;
+}
+
+.topicImg, .accountImg, .confImage {
+height: 1040px;
+width: 760px;
+}
+.accountImg{
+height: 1040px;
+width: 760px;
+}
+.confImage {
+height: 1040px;
+width: 760px;
+}
+
+
+.topicRight{
+height: 589px;
+width: 440px;
+margin-top:86px;
+margin-left:100px;
+margin-right: 221px;
+margin-bottom: 225px;
+}
+.topicRight h2{
+font-family: Open Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+padding-bottom: 40px;
+border-bottom: 3px solid gray ;
+}
+.topicRight p{
+  font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.topicButtons{
+  display: flex;
+  flex-wrap: wrap;
+  height: 316px;
+width: 440px;
+left: 851px;
+top: 301px;
+border-radius: 8px;
+}
+.topicButtons button{
+  color: #1e5b72;
+  border:1px solid #1e5b72 ;
+  background: none;
+  height: 64px;
+  border-radius: 8px;
+  font-size: 24px;
+  min-width: 170px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 16px;
+
+}
+.skip{
+  margin-right: 21px;
+  font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.account{
+  display: flex;
+  margin: 0px;
+}
+
+.accountRight{
+height: 727px;
+width: 441px;
+margin-left: 100px;
+margin-top: 86px;
+  margin-top:86px;
+  margin-left:100px;
+  margin-right: 221px;
+  margin-bottom: 225px;
+  }
+
+
+.accountRight h2{
+font-family: Open Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 40px;
+border-bottom: 3px solid gray ;
+}
+
+.accountRight p{
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.accountForm{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.accountForm p{
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+
+.accountForm input{
+border: 1px solid gray;
+height: 64px;
+width: 406px;
+border-radius: 8px;
+
+  }
+
+  .confirmation{
+    display: flex;
+  }
+  .confirmationRight{
+      height: 379px;
+      width: 448px;
+      margin-left: 100px;
+      margin-top: 86px;
+      border-radius: 0px;
+      margin-right: 221px;
+      margin-bottom: 225px;
+    }
+
+  
+  .confirmationRight h2{
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 40px;
+    border-bottom: 3px solid gray ;
+}
+  
+  /* confInfo */
